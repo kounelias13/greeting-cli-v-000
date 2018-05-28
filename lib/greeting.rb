@@ -1,4 +1,5 @@
+puts "hello what is your name?"
+name=gets.strip
 def greeting(name)
-  name=gets.strip
   puts "Hello #{name}, nice to meet you"
 end
